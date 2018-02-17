@@ -4,7 +4,7 @@ var context = null;
 var canvas = null;
 var frameRate= 1000/30;
 var frame=0;
-var assets = ["images/char-horn-girl.png",	"images/char-princess-girl.png"];
+var assets = ["images/char-horn-girl.png","images/char-princess-girl.png"];
 
 var frames=[];
 
@@ -35,13 +35,6 @@ var animate = function (){
 
 setup();
 
-setup();
-//to load an image we need 
-/*
-**1) declare a new Image() object.
-**2) declare its 'onload' method
-**3) set Image.src = "url"
-*/
 
 
 
